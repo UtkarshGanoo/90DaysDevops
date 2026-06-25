@@ -1,0 +1,154 @@
+Week 2 
+linux all commmand
+
+`pwd`
+Shows the current working directory.
+
+`ls`
+Lists files and directories.
+
+`ls -l`
+Lists files with detailed information.
+
+`ls -a`
+Shows all files, including hidden files.
+
+`cd directory_name`
+Changes the current directory.
+
+`cd ..`
+Moves one directory back.
+
+`touch filename`
+Creates a new empty file.
+
+`mkdir directory_name`
+Creates a new directory.
+
+`cp source destination`
+Copies a file from one location to another.
+
+`cp -r source_directory destination`
+Copies a directory and all its contents.
+
+`mv source destination`
+Moves or renames a file or directory.
+
+`rm filename`
+Removes a file.
+
+`rm -r directory`
+Removes a directory and all its contents.
+
+`rm -rf directory`
+Forcefully removes a directory and everything inside it.
+
+`rmdir directory`
+Removes an empty directory.
+
+`cat filename`
+Displays the contents of a file.
+
+`echo "text" > filename`
+Writes text into a file (overwrites existing content).
+
+`echo "text" >> filename`
+Appends text to the end of a file.
+
+`ln source hardlink`
+Creates a hard link.
+
+`ln -s source softlink`
+Creates a symbolic (soft) link.
+
+`df`
+Displays disk space usage.
+
+`df -h`
+Displays disk space in human-readable format (KB, MB, GB).
+
+`free`
+Displays RAM and swap memory usage.
+
+`free -h`
+Displays memory usage in human-readable format.
+
+ `vmstat`
+Displays virtual memory and system performance statistics.
+
+ `vmstat -a`
+Displays active and inactive memory statistics.
+
+ `ps -ef`
+Displays all running processes with detailed information.
+
+ `kill PID`
+Gracefully terminates a running process.
+
+ `kill -9 PID`
+Forcefully terminates a running process (SIGKILL).
+
+ `ssh -i "key.pem" username@public-ip`
+Connects securely to a remote Linux server using SSH.
+
+FILE PERMISSION 
+ `chmod 400 key.pem`
+Changes the key file permission to read-only for the owner.
+
+USER COMMANDS
+ `sudo adduser username`
+Creates a new user.
+
+ `sudo passwd username`
+Sets or changes the password of a user.
+
+ `su username`
+Switches to another user.
+
+ `su - username`
+Switches to another user and loads their login environment.
+
+ `exit`
+Returns to the previous user or exits the current shell.
+
+ `whoami`
+Displays the current logged-in user.
+
+ `id username`
+Displays the UID, GID, and groups of a user.
+
+ `groups`
+Displays the groups of the current user.
+
+ `sudo groupadd groupname`
+Creates a new group.
+
+ `sudo groupdel groupname`
+Deletes a group.
+
+ `sudo usermod -aG groupname username`
+Adds a user to a secondary group.
+
+ `sudo gpasswd -d username groupname`
+Removes a user from a group.
+
+ `sudo userdel username`
+Deletes a user account.
+
+ `sudo userdel -r username`
+Deletes a user account along with its home directory.
+
+sudo apt -get packagename
+Downloads files from the Internet.
+
+apt update
+Updates the package list (Ubuntu).
+
+apt upgrade
+Upgrades installed packages.
+
+apt install package
+Installs a package.
+
+apt remove package
+Removes a package.
