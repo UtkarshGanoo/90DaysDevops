@@ -1,0 +1,72 @@
+week 1 
+Internet
+A global network of interconnected computers that communicate using the TCP/IP protocol.
+
+IP Address
+A unique address assigned to every device on a network for identification and communication.
+Example:
+192.168.1.10
+
+
+Public IP
+An IP address that is accessible over the Internet.
+Example:
+54.247.22.225
+
+Private IP
+An IP address used inside a private network and not directly accessible from the Internet.
+Example:
+172.31.34.52
+
+DNS (Domain Name System)
+Converts domain names into IP addresses.
+Example:
+google.com
+      ↓
+142.250.xxx.xxx
+
+Router
+A networking device that connects different networks and forwards data using IP addresses.
+
+Switch
+A networking device that connects devices within the same LAN using MAC addresses.
+
+Firewall
+A security system that filters incoming and outgoing network traffic based on predefined rules.
+
+SSH (Secure Shell)
+A secure protocol used to remotely access and manage Linux servers.
+Example:
+ssh -i key.pem ubuntu@54.247.xxx.xxx
+
+Packet
+A small unit of data transmitted over a network.
+
+Port
+A logical communication endpoint used by applications.
+Common Ports:
+Port	Service
+22	SSH
+80	HTTP
+443	HTTPS
+3306	MySQL
+
+TCP
+A reliable, connection-oriented protocol.
+
+UDP
+A fast, connectionless protocol.
+
+OSI Model
+A 7-layer reference model describing how data travels across a network.
+Layers:
+Physical
+Data Link
+Network
+Transport
+Session
+Presentation
+Application
+
+TCP/IP Model
+A practical 4-layer networking model used on the Internet.
