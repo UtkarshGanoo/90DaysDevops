@@ -141,14 +141,21 @@ Deletes a user account along with its home directory.
 sudo apt -get packagename
 Downloads files from the Internet.
 
-apt update
+`apt update`
 Updates the package list (Ubuntu).
 
-apt upgrade
+`apt upgrade`
 Upgrades installed packages.
 
-apt install package
+`apt install package`
 Installs a package.
 
-apt remove package
+`apt remove package_name`
 Removes a package.
+
+`sudo shutdown -h now` or `sudo shutdown now `
+
+when you wnat to shutdonw the instance from the command line when you use this commmand for the and -h stands for halt shutdown and now is use to 
+immediatly shutdown the insatnce
+
+
