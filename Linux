@@ -129,7 +129,7 @@ Deletes a group.
  `sudo usermod -aG groupname username`
 Adds a user to a secondary group.
 
- `sudo gpasswd -d username groupname`
+`sudo gpasswd -d username groupname`
 Removes a user from a group.
 
  `sudo userdel username`
@@ -157,5 +157,60 @@ Removes a package.
 
 when you wnat to shutdonw the instance from the command line when you use this commmand for the and -h stands for halt shutdown and now is use to 
 immediatly shutdown the insatnce
+
+`scp -i ".pem_ FILE_PATH"  "FILE_NAME OR  FILE_PATH of local that want to copy on server" SERVERPATH : "FILE_PATH of server where you want file" ` 
+EX:- scp -i "C:\Users\UTKARSH GANOO\Downloads\First_Ec2_Key.pem" newest.txt  ubuntu@ec2-54-171-13-158.eu-west-1.compute.amazonaws.com:/home/ubuntu/loc_sys
+if you you want to file from local system to your ec2 server  use scp (secure copy protocol).
+
+`scp -i ".pem_ FILE_PATH" SERVERPATH : FILE_PATH where file on server  "FILE_PATH of local where you want file from server " `
+EX:- scp -i "C:\Users\UTKARSH GANOO\Downloads\First_Ec2_Key.pem" ubuntu@ec2-54-171-13-158.eu-west-1.compute.amazonaws.com:/home/ubuntu/alpha.txt  "C:\my gov doc"
+if you you want to file from your ec2 server TO local system use scp (secure copy protocol).
+
+`ping ipaddress or website`
+to check the connectivity btw two devices and transfer data packets
+
+`netstat`
+if you want to see the server active n/w connection and ports 
+
+`ifconfig`
+want to check show the network interfaces 
+
+`traceroute website_name`
+if you want to see the n/w hops btw source to destination 
+
+`tracepath website_name`
+if you want to to see the latency of n/w from source to destination 
+
+`mtr website_name`
+if you do ping and traceroute both 
+
+`nslookup website_name `
+to find associated ipaddress with dns  
+
+`telnet website_name portn_no`
+to connect remote server on specific port number if port is open its automatically connect 
+
+`ip address show`
+if you want to see your ip address
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
