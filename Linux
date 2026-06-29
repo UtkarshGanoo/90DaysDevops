@@ -191,7 +191,7 @@ to find associated ipaddress with dns
 to connect remote server on specific port number if port is open its automatically connect 
 
 `ip address show`
-if you want to see your ip address
+if you want to see your ip address.
 
 
 
