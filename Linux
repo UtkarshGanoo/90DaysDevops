@@ -193,20 +193,23 @@ to connect remote server on specific port number if port is open its automatical
 `ip address show`
 if you want to see your ip address.
 
+`dig website_name`
+if want to find the details about aomain name ipaddress  
 
+`whois website_name`
+details about website like its ragistrar,registaration expirationdate etc  
 
+`curl -X GET api_endpoint_add` | jq
+want to call api endpoints Get means want to get data from api want to butify the data we use in the last jq
 
+`wget file_download_link`
+want to download file from internet with link 
 
+`watch cmd` `watch -n 5 cmd` 
+want to run command and see the output in each 1-2 min the time can be changable run cmd in loop 
 
-
-
-
-
-
-
-
-
-
+`nmap -v website_name`
+if you want to idntify open ports and sacnning website 
 
 
 
