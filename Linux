@@ -211,6 +211,16 @@ want to run command and see the output in each 1-2 min the time can be changable
 `nmap -v website_name`
 if you want to idntify open ports and sacnning website 
 
+`awk 'IN this you write code' file_name`
+ex:-
+for print--> awk '{print}' mylogfil.log
+for column print -->awk '{print $1,$2}' mylogfil.log
+for filter print -->awk '/KHTML, like Gecko/ {print $1}' mylogfil.log
+for count print -->awk '/which you want to count like INFO/{COUNT++}END {print "msg you want to write ",count}' mylogfil.log
+for condition print -->awk '$2>="aplay on filter"/ {print $2.$3,$4}' mylogfil.log
+powerful Linux text-processing tool used to search, filter, extract, and manipulate text from files or command output.
+
+
 
 
 
