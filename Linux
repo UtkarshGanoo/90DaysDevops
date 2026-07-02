@@ -213,14 +213,21 @@ if you want to idntify open ports and sacnning website
 
 `awk 'IN this you write code' file_name`
 ex:-
-for print--> awk '{print}' mylogfil.log
-for column print -->awk '{print $1,$2}' mylogfil.log
-for filter print -->awk '/KHTML, like Gecko/ {print $1}' mylogfil.log
-for count print -->awk '/which you want to count like INFO/{COUNT++}END {print "msg you want to write ",count}' mylogfil.log
-for condition print -->awk '$2>="aplay on filter"/ {print $2.$3,$4}' mylogfil.log
+ for print--> awk '{print}' mylogfil.log
+ for column print -->awk '{print $1,$2}' mylogfil.log
+ for filter print -->awk '/KHTML, like Gecko/ {print $1}' mylogfil.log
+ for count print -->awk '/which you want to count like INFO/{COUNT++}END {print "msg you want to write ",count}' mylogfil.log
+ for condition print -->awk '$2>="aplay on filter"/ {print $2.$3,$4}' mylogfil.log
 powerful Linux text-processing tool used to search, filter, extract, and manipulate text from files or command output.
 
-
+sed -n 'expression and write what do you need ' file name "-n to set boundry of string "
+ex:-
+ for print--> sed '' mylogfil.log
+ for specific print -->sed -n '/INFO/p' mylogfil.log here "p for print"
+ for replace word--> sed 's/applewebkit/banana/g' mylogfil.log here "s for substring and g for golablly"
+ for find in which line word is coming --> sed -n -e '/what word you find for line/='filename "== to print line"
+ to change this line to this line-->sed '1,10s/applewebkit/mango/g'file name "1st line to 10th line "
+sed is same as awk but this work with structured and non both in this we use expression it search ,replace , print line by line 
 
 
 
