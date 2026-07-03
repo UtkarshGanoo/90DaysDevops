@@ -234,6 +234,12 @@ sed is same as awk but this work with structured and non both in this we use exp
 "-c" -> for count the occurence of word 
 if you want find expression ,pattern,word ,string in a file we use grep (global expression print) 
 
+linux volume management 
 
+`lsblk` 
+itis a Linux command used to display information about all block storage devices
+
+
+df -h
 
 
