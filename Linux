@@ -267,9 +267,6 @@ you want to display how many volume grous are there in your instance
 `vgdisplay`
 to display the information about volume groups
 
-
-
-
 `lvcreate -L sizeof_lv -n  lv_name volumegroup_name `
 ex:-`lvcreate -L 18.99G -n  mylv myvggroup `
 to create logical volume from the volume group you use this cmd 
@@ -292,12 +289,14 @@ to mount te logical volume and volume group with dirctory  that can be accessed
 
 `umount directoryPath`
 EX:- umount my_logicalmount/my-lvmount
-to unmount the directory 
+to unmount the directory
 
+`mkfs -t ext4 /dev/volume_name`
+to mount the disk cmd is changed but to munt cmd is same 
 
-
-
-
+`lvextend -L capacity that want to increse /dev/volume_groupname/logical_volumename`
+ex:-lvextend -L +5G /dev/myvggroup/mylv
+to increase the capacity of logical volume
 
 
 
