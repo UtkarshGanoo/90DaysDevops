@@ -240,5 +240,74 @@ linux volume management
 itis a Linux command used to display information about all block storage devices
 
 df -h
+if you want to display the information the total, used, available disk space, and usage percentage of mounted file systems in a human-readable format
+
+`sudo su `
+to become a root user if you wanted to use lvm you need to be root user first
+
+`lvm`
+this is use to use the lvm for create logical volume ,physical volume ,volume group and etc 
+
+`pvcreate /dev/volume_name `
+to create physical volume you use this cmd and in the last you put the name of volume that you create form aws ebs and after attach with instance and you 
+see this volume name by usin lsblk cmd 
+
+`pvdisplay`
+if you want to display the infomation about the physical volume 
+
+`pvs`
+if you want to display how much physical volume
+
+`vgcreate group_name volume_name `
+to create volume group you use this cmd 
+
+`vgs`
+you want to display how many volume grous are there in your instance  
+
+`vgdisplay`
+to display the information about volume groups
+
+
+
+
+`lvcreate -L sizeof_lv -n  lv_name volumegroup_name `
+ex:-`lvcreate -L 18.99G -n  mylv myvggroup `
+to create logical volume from the volume group you use this cmd 
+
+`lvs`
+you want to display how many volume grous are there in your instance  
+
+`lvdisplay`
+to display the information about logical volume group
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
