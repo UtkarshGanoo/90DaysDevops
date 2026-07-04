@@ -229,7 +229,7 @@ ex:-
  to change this line to this line-->sed '1,10s/applewebkit/mango/g'file name "1st line to 10th line "
 sed is same as awk but this work with structured and non both in this we use expression it search ,replace , insert , delet print line by line 
 
-`grap what you find filename`
+`grap whatyoufind file_name`
 "-i"-> case insensitive when you write wrog text formate like lowercase or uppercase
 "-c" -> for count the occurence of word 
 if you want find expression ,pattern,word ,string in a file we use grep (global expression print) 
