@@ -275,18 +275,24 @@ ex:-`lvcreate -L 18.99G -n  mylv myvggroup `
 to create logical volume from the volume group you use this cmd 
 
 `lvs`
-you want to display how many volume grous are there in your instance  
+you want to display how many logical volume are there in your instance  
 
 `lvdisplay`
 to display the information about logical volume group
 
+mount volumes 
+The mount command is used to attach a filesystem (disk, partition, USB drive, or Logical Volume) to a directory (mount point) so that it can be accessed.
 
+`mkfs.ext4 /dev/volume_groupname/logical_volumegroupname`
+to formate logical volume and volume group  in human readable formate 
 
+`mount formatedlogicalvolume&volume_groupname PATH directoryPath where to mount `
+ex:- mount /dev/myvggroup/mylv my_logicalmoutn/my-lvmount
+to mount te logical volume and volume group with dirctory  that can be accessed
 
-
-
-
-
+`umount directoryPath`
+EX:- umount my_logicalmount/my-lvmount
+to unmount the directory 
 
 
 
