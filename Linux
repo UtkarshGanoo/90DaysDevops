@@ -1,6 +1,6 @@
 Week 2 
 linux all commmand
-in the linux all is directory or file 
+in the linux all is directory or file .system related binary files are stored in sbin folder 
 
 `pwd`
 Shows the current working directory.
