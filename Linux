@@ -1,6 +1,7 @@
 Week 2 
 linux all commmand
 in the linux all is directory or file .system related binary files are stored in sbin folder.all the system configuration file are inside /etc folder  
+if you wanted to find the comands are inside bin folder .
 
 `pwd`
 Shows the current working directory.
