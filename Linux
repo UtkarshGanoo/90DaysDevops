@@ -159,6 +159,9 @@ Installs a package.
 `apt remove package_name`
 Removes a package.
 
+`sudo apt-get upgrade`
+if you want to update your system   
+
 `sudo shutdown -h now` or `sudo shutdown now `
 
 when you wnat to shutdonw the instance from the command line when you use this commmand for the and -h stands for halt shutdown and now is use to 
