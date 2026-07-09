@@ -8,6 +8,11 @@ Shows the current working directory.
 
 `ls`
 Lists files and directories.
+
+`man cmd_name`
+ex:-man rm
+if you want to know the details about cmd first go to root user by`cd ~`and then `ls bin ` after that
+
 `ls -l`
 Lists files with detailed information.
 
