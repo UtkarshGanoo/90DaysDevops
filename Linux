@@ -307,8 +307,13 @@ to mount the disk cmd is changed but to munt cmd is same
 ex:-lvextend -L +5G /dev/myvggroup/mylv
 to increase the capacity of logical volume
 
+`systemctl status service_name `
+ex:-systemctl status nginx
+if you want to know about the running status of system 
 
-
+`sudo systemctl stop service_name `
+ex:-sudo systemctl stop nginx
+if you want to know about the running status of system 
 
 
 
