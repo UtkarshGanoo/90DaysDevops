@@ -1,7 +1,7 @@
 Week 2 
 linux all commmand
 in the linux all is directory or file .system related binary files are stored in sbin folder.all the system configuration file are inside /etc folder  
-if you wanted to find the comands are inside bin folder .
+if you wanted to find the comands are inside bin folder . 
 
 `pwd`
 Shows the current working directory.
@@ -316,8 +316,11 @@ ex:-sudo systemctl stop nginx
 if you want to know about the running status of system 
 
 
+if you want to work on one server to another server if you want to connect server A to server B
+so private key should  on the sreverA and public key on serverB.public key are in .ssh/authorize_key
 
-
+`ssh -keygen`
+to generate key 
 
 
 
