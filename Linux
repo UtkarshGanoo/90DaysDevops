@@ -322,6 +322,8 @@ so private key should  on the sreverA and public key on serverB.public key are i
 `ssh -keygen`
 to generate key 
 
+`ssh - private_keyof serverA  ubuntu@ipaddressofB`
+to cnnect serverA to serverb
 
 
 
