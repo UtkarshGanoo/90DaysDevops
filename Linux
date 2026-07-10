@@ -322,10 +322,21 @@ so private key should  on the sreverA and public key on serverB.public key are i
 `ssh -keygen`
 to generate key 
 
-`ssh - private_keyof serverA  ubuntu@ipaddressofB`
-to cnnect serverA to serverb
+`ssh - private_keyofserverA  ubuntu@ipaddressofserverB`
+to connect serverA to serverB
 
-
+steps to connect one server to another
+serverA to serverB
+step:-if want to connect sreverA to Server B the first you genrate private key in serverA 
+ls -a
+cd .ssh --> ssh-keygen 
+step2:- now you copy serverA's Public key and copy to serverB Authorize_keys fils
+run this in serverB
+ls -a
+cd .ssh -->vim authorize_key copy serverA's 
+setp3:-> now you have private key in the serverA and public key in serverB of serverA  now you do the ssh 
+run in serverA
+ssh -i serverAprivateKeyNAME ubuntu@sreverBIpAddress
 
 
 
