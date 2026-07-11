@@ -220,11 +220,7 @@ want to run command and see the output in each 1-2 min the time can be changable
 `nmap -v website_name`
 if you want to idntify open ports and sacnning website 
 
-
-
 if you want to work on the logfile so you can download a file from this repo--> https://github.com/logpai/loghub  
-
-
 
 `awk 'IN this you write code' file_name`
 ex:-
