@@ -296,7 +296,7 @@ to formate logical volume and volume group  in human readable formate
 
 `mount formatedlogicalvolume&volume_groupname PATH directoryPath where to mount `
 ex:- mount /dev/myvggroup/mylv my_logicalmoutn/my-lvmount
-to mount te logical volume and volume group with dirctory  that can be accessed
+to mount te logical volume and volume group with dirctory  that can be accessed to bind volume to location is called & to attach volume to instance is called attaching
 
 `umount directoryPath`
 EX:- umount my_logicalmount/my-lvmount
