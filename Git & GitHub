@@ -1,2 +1,43 @@
-here we learn about git and github 
-it is a tracker tool that is store the histroy of changes  
+here we learn about git and github .it is a tracker tool that is store the histroy of changes .pull and marge are same in git we called marge and in github we 
+called pull.
+git commit -m "your_msg"
+this is use to give the comments of your code pushes  
+
+git add "file_name" & git add.
+this both are use to stage the files and  with first one we use to stage a specific file and secound one is use to strage the all files 
+
+git log --oneline 
+this cmd use to see all the commits of branch that we commited when file send to github repo
+
+git switch "branch_name" & git checkout "branch_name"
+both cmd are use to switch the one branch to another branch 
+
+git checkout -b "branch_name"
+this cmd is use to create a branch without -b we change the branch
+
+git push origin master
+it is use to push the code in git repo 
+
+git init 
+use to initialize a git 
+
+.ignore 
+we dont want push some files on github repo so we cna include its name in gitignore file so when we puch the code that files are not pushed 
+
+git status 
+by this cmd we can the files stages and its staus here we on which stage are our files like untracked ,staged or tracked 
+
+git remote -v 
+by this we can see on which repo we connected 
+
+git marge "branch_name"
+by this file we can marge the two different branches 
+
+git config --global username "username" & git config --global useremail "emailaddressgit "
+by this we can connected  github account with git local 
+
+git diff 
+this cmd is use to show the difference btw commits 
+
+
+
