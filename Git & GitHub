@@ -39,5 +39,24 @@ by this we can connected  github account with git local
 git diff 
 this cmd is use to show the difference btw commits 
 
+git revert "commitid"
+if we made changes in repo but that changes are not working properly and we want last changes back so by this we can revert that changes and commit id we get 
+using git log --oneline cmd
+
+git stash
+if we are in another branch and we commit some files of this branch and want to make changes in another branch it wasnt allow you to switch branch so you have 
+to save that changes temporary after that you can switch the branch.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
