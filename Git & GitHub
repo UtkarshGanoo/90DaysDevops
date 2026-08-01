@@ -11,7 +11,7 @@ this cmd use to see all the commits of branch that we commited when file send to
 
 git switch "branch_name" & git checkout "branch_name"
 both cmd are use to switch the one branch to another branch 
-
+ 
 git checkout -b "branch_name"
 this cmd is use to create a branch without -b we change the branch
 
