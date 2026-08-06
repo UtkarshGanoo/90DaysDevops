@@ -345,7 +345,9 @@ ssh -i serverAprivateKeyNAME ubuntu@sreverBIpAddress
 `find directory_name -name  file_name `
 to find a file in the directory 
 
+`sudo usermod -aG group_name $USER `<-- $USER means repersent currently logged in user 
+to add current user/modify user in group
 
-
-
+`newgrp gruop_name`
+after modify group we need to refresh group
 
