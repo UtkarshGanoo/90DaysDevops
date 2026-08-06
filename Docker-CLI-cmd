@@ -1,0 +1,4 @@
+here we learn all the docker cli cmd 
+
+  to check the conatiner detailslike noof container ,containerid, image, createddate , status etc 
+  `docker ps `
