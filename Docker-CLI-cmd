@@ -2,3 +2,14 @@ here we learn all the docker cli cmd
 
   to check the conatiner detailslike noof container ,containerid, image, createddate , status etc 
   `docker ps `
+
+
+to run ubutnu container 
+ for interactive terminal `docker run -it conatiner_name`<-- "-it stands for interactive terminal "
+ for run in background `docker run -d conatiner_name`
+ for some port require continer like nginx `docker run -d -p 80:80 container_name `
+
+to stop docker conatainer 
+`docker stop container_id `
+
+
